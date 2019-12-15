@@ -9,7 +9,6 @@ import SyllabusSection from "~/components/SyllabusSection.vue";
 
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
-import '@mdi/font/css/materialdesignicons.css' // Ensure you are using css-loader
 
 export default function (Vue, { router, isClient, appOptions, head }) {
   Vue.component("syllabus-layout", DefaultLayout);
